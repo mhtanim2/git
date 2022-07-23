@@ -1,0 +1,40 @@
+*pwd ==> Show the folder we are now
+*ls ==> Show the item list of the directory
+*mkdir x ==> Create a folder name x
+*git init ==> Hidden git repo/ folder(Store the history of the project)
+initialize hidden reposetory
+*ls -a ==> Show the item list of the hidden directory
+*ls .git ==> Show Inside hidden file list
+*touch name.ext ==> Creating new file
+*vi name.ext--> Edit the file--> Esc--> :x!(Enter) to exit ==> Can update or edit inside the file
+*git status ==> Show the added files for commit
+*git add . ==> Adding all the files to the git
+*git reset ==> Canceling the adding stage file
+*git reset --hard ==> get deleted file
+*git commit -m"any message" ==> commit the project here with message
+*git reset HEAD~ ==> Cancelling all the commited file
+*cat name.ext ==> Shows what things are inside of the file
+*git restore --staged name.ext/. ==> Remove tha added git files
+*git log ==> show the history of the reposetory
+*git rm -rf name.ext ==> Delete the file or anything
+*git reset ****code*** ==> restore the deleted item
+*git stash ==> throw backstage
+*git stash pos ==> class the stash
+*fork other code
+*git clone **link**==> download the project in my pc
+*git remote add upstream **link**==> get the idea from where the project copyed
+*git branch name==> new branch is crated
+*git branch ==> Show all the branch
+*git checkout name==> switch to the different branch
+*git merge  2ndBranch -m"Comment"-->checkout-->git merge 1stBranch -m"Comment" ==> 
+merging two branch together
+*git fetch ==> fetching the data from remote github
+*git merge ==> merge value from remote github
+
+-------------------------------
+ADD WITH GIT-HUB
+-------------------------------
+Step 1: git remote add origin **link**
+Step 2: git remote -v
+step 3: git push origin master/branch
+
